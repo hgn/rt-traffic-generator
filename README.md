@@ -182,3 +182,7 @@ Stream 4
 {"payload-size": 20, "seq-no": 4, "stream": 0, "tx-time": "2017-07-05 20:14:55.953203"}
 [...]
 ```
+
+# PC Test Setup
+
+- Disable Power Saving Modes for Intel NICs in the BIOS. Sleep state behavior in Intel NICs can cause jitter up to 2-3ms
